@@ -113,5 +113,5 @@ class EuclideanNetwork():
     def GreedySearch(self,start_node,goal_node):
         return self.TreeSearch(start_node, goal_node, self.FindMinDistance)
     
-    def Aprime(self,start_node,goal_node):
+    def Astar(self,start_node,goal_node):
         return self.TreeSearch(start_node, goal_node, self.MinDistMinCost)

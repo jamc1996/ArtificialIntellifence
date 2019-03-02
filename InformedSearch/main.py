@@ -34,6 +34,6 @@ if path[0] != -1:
     print(path[:-1])
 
 print("\nUsing A* Search:")
-path2 = TestMap.Aprime(0,6)
+path2 = TestMap.Astar(0,6)
 if path[0] != -1:
     print(path2[:-1])
